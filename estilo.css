@@ -6,7 +6,7 @@
 }
 body{  
     font-family: "DM Sans", sans-serif;
-    background-color: #faeeee;
+    background-color: #f1f1f1;
     margin:5%;
     line-height: 1.6;
 }
@@ -21,7 +21,7 @@ main{
 
 header{
     text-align: center;
-    color:rgb(88,195,227);
+    color:rgb(17, 57, 70);
     padding:  20px 0;
     border-radius: 8px 8px 0 0;
     background-image: url('./img/veronica-KeIL-gKZrAM-unsplash.jpg');
@@ -32,7 +32,7 @@ header{
 
 header figure img{
     border-radius: 50%;
-    border: 5px solid #216cae;
+    border: 5px solid #090a0a;
     box-shadow: 0 0 10px;
     
 }
@@ -47,11 +47,12 @@ header h2{
 }
 
 .container{
-    background-color: blue;
+    background-color: rgb(160, 160, 252);
     width: 80%;
     margin: 0 auto;
     position: relative;
     z-index: 1;
+    box-shadow: 0 0 20px rgb(150,257,167);
 }
 
 .container_foto_perfil{
@@ -63,8 +64,9 @@ header h2{
     vertical-align: middle;
     border: 7px solid #0ebaba;
     margin: 5%;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    box-shadow: 0 0 20px rgba(158, 107, 107, 0.5);
 }
+
 
 .container_foto_perfil img{
     width: 100%;
@@ -84,22 +86,22 @@ header h2{
 }
 
 h3{
-    color: rgba(14, 16, 16,0.1);
+    color: rgba(72, 117, 117, 0.1);
 }
 
 section{
-    background-color: white;
+    background-color: rgb(236, 232, 232);
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(219, 213, 213, 0.1);
 }
 
 section hr{
     border: 0;
     height: 2px;
     margin: 10px;
-    background: #0ebaba; 
+    background: #000c0c; 
 }
 
 ul{
@@ -127,3 +129,10 @@ address a {
 article{
     margin-bottom: 15px;
 }
+
+.titulo-perfil {
+    color: #978e0d;
+    font-weight: bold;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
